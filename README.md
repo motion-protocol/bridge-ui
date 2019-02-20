@@ -1,4 +1,4 @@
-# UI for Leap DAO plasma bridge contract
+# UI for Motion Protocol plasma bridge contract
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -15,11 +15,11 @@ You can:
 
 ## Links
 
-Dev: http://bridge-dev.leapdao.org/
+Dev: http://bridge-dev.motion.ooo/
 
-Testnet: http://testnet.leapdao.org/
+Testnet: http://testnet.motion.ooo/
 
-Mainnet: http://mainnet.leapdao.org/
+Mainnet: http://mainnet.motion.ooo/
 
 ## Install
 
