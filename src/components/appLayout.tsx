@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2018-present, Leap DAO (leapdao.org)
+ * Copyright (c) 2018-present, Motion Protocol (motion.ooo)
  *
  * This source code is licensed under the GNU GENERAL PUBLIC LICENSE Version 3
  * found in the LICENSE file in the root directory of this source tree.
@@ -63,7 +63,7 @@ class AppLayout extends Component<AppLayoutProps, any> {
     const { account, web3, section } = this.props;
 
     if (web3.plasma.ready === false) {
-      return <Message>No connection to Leap node</Message>;
+      return <Message>No connection to Motion node</Message>;
     }
 
     if (!account.ready) {
@@ -187,7 +187,7 @@ class AppLayout extends Component<AppLayoutProps, any> {
             {this.props.children}
           </div>
         </Layout.Content>
-        <Layout.Footer>© Leap DAO {new Date().getFullYear()}</Layout.Footer>
+        <Layout.Footer>© Motion Protocol {new Date().getFullYear()}</Layout.Footer>
       </Layout>
     );
   }

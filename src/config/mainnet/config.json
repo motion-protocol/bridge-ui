@@ -1,7 +1,7 @@
 {
   "name": "mainnet",
-  "title": "LeapDAO Mainnet",
-  "description": "Plasma network running transfer-only MoreVP governed by LeapDAO",
+  "title": "Motion Protocol Mainnet",
+  "description": "Plasma network running transfer-only MoreVP governed by Motion Protocol",
   "consensus": "poa",
   "nodes": [
     "wss://mainnet-node1.leapdao.org:1443"

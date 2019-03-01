@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2018-present, Leap DAO (leapdao.org)
+ * Copyright (c) 2018-present, Motion Protocol (motion.ooo)
  *
  * This source code is licensed under the GNU GENERAL PUBLIC LICENSE Version 3
  * found in the LICENSE file in the root directory of this source tree.
@@ -91,7 +91,7 @@ export default class Faucet extends React.Component<FaucetProps, any> {
       <AppLayout section="faucet">
         <h1>Get tokens</h1>
         <p>
-          Tweet something about @leapdao and get some testnet LEAP tokens on
+          Tweet something about @motionprotocol and get some testnet NEW tokens on
           Plasma! Don't forget to include your Ethereum address in the tweet.
         </p>
         <Form onSubmit={this.handleSubmit} layout="inline">
@@ -119,7 +119,7 @@ export default class Faucet extends React.Component<FaucetProps, any> {
               <Button
                 href={`https://twitter.com/intent/tweet?text=${`Requesting faucet funds into ${
                   account.address
-                } on the @leapdao test network.`}`}
+                } on the @motionprotocol test network.`}`}
                 target="_blank"
                 className="twitter-share-button"
               >

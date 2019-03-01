@@ -1,7 +1,7 @@
 {
   "name": "testnet",
-  "title": "LeapDAO Testnet — The Raft release",
-  "description": "Plasma network running transfer-only MoreVP governed by LeapDAO",
+  "title": "Motion Protocol Testnet — The Raft release",
+  "description": "Plasma network running transfer-only MoreVP governed by Motion Protocol",
   "consensus": "poa",
   "nodes": [
     "wss://testnet-node1.leapdao.org:1443"

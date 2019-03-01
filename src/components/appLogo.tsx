@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { CONFIG } from '../config';
 
-const leapLogo = require('../leaplogo.svg');
+const leapLogo = require('../motion-protocol.png');
 
 const AppLogo = () => {
   return (
@@ -28,36 +28,7 @@ const AppLogo = () => {
         }}
         alt=""
       />
-      <div
-        style={{
-          display: 'inline-flex',
-          flexDirection: 'column',
-          color: '#000',
-          textAlign: 'center',
-          lineHeight: 1,
-        }}
-      >
-        <span
-          style={{
-            fontFamily: 'ChivoLogo',
-            fontSize: 16,
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          LeapDAO
-        </span>
-        <span
-          style={{
-            lineHeight: '1rem',
-            fontSize: 13,
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          {CONFIG.name}
-        </span>
-      </div>
+
     </div>
   );
 };
